@@ -1,0 +1,36 @@
+
+body{
+   margin: 0px;
+   background-color: darkslateblue;
+}
+.wrapper{
+   width:100%;
+   max-width: 960px;
+   margin: 0px;
+  
+
+}
+.flex-container{
+  display: flex;
+  margin-left: 20px;
+  
+}
+.box{
+  
+   height: 60px;
+   min-width: 100px;
+   padding-top: 10px;
+   margin-right: 10px;
+   
+   
+   
+}
+.one{
+   background-color: chartreuse;
+}
+.two{
+   background-color: darkblue;
+}
+.three{
+   background-color: darkred;
+}
