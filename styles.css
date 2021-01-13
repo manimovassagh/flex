@@ -5,14 +5,15 @@ body{
 }
 .wrapper{
    width:100%;
-   max-width: 960px;
+  padding: 0px;
    margin: 0px;
+
   
 
 }
 .flex-container{
   display: flex;
-  margin-left: 20px;
+ 
   
 }
 .box{
@@ -20,17 +21,24 @@ body{
    height: 60px;
    min-width: 100px;
    padding-top: 10px;
-   margin-right: 10px;
+   
+  
    
    
    
 }
 .one{
    background-color: chartreuse;
+   flex-grow: 7;
+   
 }
 .two{
    background-color: darkblue;
+   flex-grow: 4;
+   
 }
 .three{
    background-color: darkred;
+   flex-grow: 1;
+ 
 }
